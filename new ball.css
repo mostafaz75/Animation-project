@@ -15,7 +15,7 @@
     position: absolute;
     /* top: 10px; */
     /* left: 10px; */
-    animation: move 5s ease-in-out infinite;
+    animation: move 15s ease-in-out infinite;
     transition: all 3s ease-in-out;
 }
 .container:hover .ball{
@@ -53,20 +53,27 @@ border-radius:50%;
         
         border-radius: 100% 30% 100% 30%;
     }
-    79%{
+    77%{
         border-radius: 50%;
     }
     80%{
         transform:rotate(100deg) translate( 50px,-500px);
         border-radius: 50%;
     }
-    98%{
+    82%{
         transform:rotate(120deg) translate(10px,-750px);
+    }
+    98%{
+        /* transform:rotate(90deg) translate(250px,-850px); */
+        transform:rotate(130deg) translatex(-300px)translatey(-650px);
     }
     99%{
         border-radius: 50%;
     }
     100%{
+        
+        transform: rotate(170deg)translate(-750px,-520px) ;
         border-radius: 50%;
+       
     }
 }
