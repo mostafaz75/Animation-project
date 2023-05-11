@@ -15,7 +15,7 @@
     position: absolute;
     /* top: 10px; */
     /* left: 10px; */
-    animation: move 15s ease-in-out infinite;
+    animation: move 22s ease-in-out infinite;
     transition: all 3s ease-in-out;
 }
 .container:hover .ball{
@@ -27,18 +27,22 @@
 transform:translat(0,0);
 ;
     }
-    
+    24%{
+        /* height: 20px; */
+    }
     25%{
 transform:rotate(30deg) translate(280px,280px) ;
 border-radius:50%;
+/* height: 5px; */
 
     }
     26%{
      /* transform:rotatex(0deg)translate(280px,280px)  ;    */
      border-radius: 100% 0% 100% 0%;
-
+     /* height: 5px */
     }
     31%{
+        /* height: 20px; */
         border-radius: 50%;
     }
     50%{
@@ -50,10 +54,11 @@ border-radius:50%;
         border-radius: 50%;
     }
     76%{
-        
+        /* height: 5px */
         border-radius: 100% 30% 100% 30%;
     }
     77%{
+        /* height: 20px; */
         border-radius: 50%;
     }
     80%{
@@ -63,17 +68,24 @@ border-radius:50%;
     82%{
         transform:rotate(120deg) translate(10px,-750px);
     }
-    98%{
+    
+    97%{
         /* transform:rotate(90deg) translate(250px,-850px); */
         transform:rotate(130deg) translatex(-300px)translatey(-650px);
+        
     }
-    99%{
+    98%{
         border-radius: 50%;
     }
-    100%{
+    99%{
         
         transform: rotate(170deg)translate(-750px,-520px) ;
         border-radius: 50%;
        
     }
+    100%{
+        transform: translate(880px,380px);
+        
+    }
+    
 }
