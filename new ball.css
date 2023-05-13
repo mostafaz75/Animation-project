@@ -1,10 +1,24 @@
+body{
+    background-image: url(assets/duplicitous-ball-in-the-court-7yj4wqmbaxc4yqxn\ \(3\).jpg);
+    background-size: 1554px;
+    background-repeat: repeat;
+    background-position: top;
+
+}
 .container {
   width: 900px;
   height: 400px;
   background-color: blue;
-  border: 3px solid BLACK;
-  margin: 90px auto;
+ 
+  margin: 20px auto;
   position: relative;
+  background-image: url(assets/basketball-court-pictures-so9uos00f5wbt0m4.jpg);
+  background-size: contain;
+  background-repeat: round;
+  background-position: top;
+ background-position-x: left;
+ background-position-y: right;
+ 
 }
 .ball {
   width: 20px;
@@ -12,12 +26,20 @@
   background-color: brown;
   border-radius: 50%;
   position: absolute;
-  
-  animation: move 13s ease-in-out infinite;
-  transition: all 3s ease-in-out;
+  background-image: url(assets/basketball-g043a7f170_640.png);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: top;
+ background-position-x: left;
+ background-position-y: right;
+ animation: move 13s ease-in-out infinite;
+  transition: all 3s ease-in-out ;
+  /* animation-direction: alternate; */
 }
 .container:hover .ball {
+  
   animation-play-state: paused;
+  
 }
 @keyframes move {
   0% {
@@ -41,6 +63,9 @@
   16% {
     border-radius: 100% 0% 100% 0%;
   }
+  17%{
+    border-radius: 50%;
+  }
   25% {
     border-radius: 50%;
   }
@@ -62,32 +87,35 @@
     transform: rotate(100deg) translate(50px, -500px);
     border-radius: 50%;
   }
-  71% {
+  66% {
     border-radius: 50%;
   }
-  72% {
+  67% {
     transform: rotate(120deg) translate(10px, -750px);
     border-radius: 40% 100% 40% 100%;
   }
-  73% {
+  68% {
     border-radius: 50%;
   }
 
-  87% {
+  77% {
     transform: rotate(130deg) translatex(-300px) translatey(-650px);
   }
-  88% {
+  78% {
     border-radius: 50%;
   }
-  89% {
+  79% {
     transform: rotate(170deg) translate(-750px, -520px);
     border-radius: 50%;
   }
   90%{
-    transform: translate(840px, 360px)
+    transform: translate(840px, 330px)
   }
-  94%{
+  92%{
     transform: translate(860px, 380px)
+  }
+  93%{
+    transform: translate(880px, 380px)
   }
   95% {
     transform: translate(880px, 380px);
