@@ -9,15 +9,13 @@ body{
 .container {
   width: 900px;
   height: 400px;
-  background-color: blue;
   margin: 20px auto;
   position: relative;
   background-image: url(assets/basketball-court-pictures-so9uos00f5wbt0m4.jpg);
   background-size: contain;
   background-repeat: round;
   background-position: top;
-  background-position-x: left;
-  background-position-y: right;
+  background-position-x: left; 
 }
 /*CONTAINER CSS [END]*/
 
@@ -25,7 +23,6 @@ body{
 .ball {
   width: 20px;
   height: 20px;
-  background-color: brown;
   border-radius: 50%;
   position: absolute;
   background-image: url(assets/basketball-g043a7f170_640.png);
@@ -33,7 +30,6 @@ body{
   background-repeat: repeat;
   background-position: top;
   background-position-x: left;
-  background-position-y: right;
   transition: all 3s ease-in-out ;
 }
 /*BALL CSS [END]*/
@@ -48,7 +44,7 @@ body{
 /*ANIMATION MOVE NAME [START]*/
 @keyframes move {
   0% {
-    transform: translat(0, 0);
+ 
     border-radius: 50%;
   }
   5% {
@@ -136,24 +132,25 @@ body{
   width: 155px;
   height: 333px;
   position: absolute;
-  left: -164px;
+  left: -634px;
+  top: -500px;
   transition: all 3s ease-in-out;
 }
 /*JORDAN IMG [END]*/
 
 /*JORDAN IMG HOVER [START]*/
 .container:hover .jordan{
-  animation: koby 2s ease-in-out 1;
+  animation: koby 2s ease-in-out 1 forwards;
 }
 /*JORDAN IMG HOVER [END]*/
 
 /*JORDAN ANIMATION KOBY NAME [START]*/
 @keyframes koby{
   0%{
-    transform: translate(-300px,-300px);
+    
   }
   100%{
-    
+    transform: translate(500px,500px);
   }
 }
 /*JORDAN ANIMATION KOBY NAME [END]*/
