@@ -32,13 +32,13 @@ body{
   background-position: top;
  background-position-x: left;
  background-position-y: right;
- animation: move 13s ease-in-out infinite;
+ 
   transition: all 3s ease-in-out ;
   /* animation-direction: alternate; */
 }
 .container:hover .ball {
-  
-  animation-play-state: paused;
+  animation: move 13s ease-in-out 1 2s;
+  /* animation-play-state: paused; */
   
 }
 @keyframes move {
@@ -122,5 +122,25 @@ body{
   }
   100% {
     transform: translate(880px, 380px);
+  }
+}
+.jordan img{
+  width: 155px;
+  height: 333px;
+  position: absolute;
+  left: -164px;
+  transition: all 3s ease-in-out;
+  
+}
+.container:hover .jordan{
+  animation: koby 2s ease-in-out 1;
+  
+}
+@keyframes koby{
+  0%{
+    transform: translate(-300px,-300px);
+  }
+  100%{
+    
   }
 }
