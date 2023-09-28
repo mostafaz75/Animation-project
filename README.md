@@ -6,7 +6,7 @@ This is a simple HTML project that demonstrates a fun animation where a ball mov
 
 ## Demo
 
-You can see a live demo of this project [here](#insert-demo-link).
+You can see a live demo of this project [here](mostafaz75.github.io/Animation-project/).
 
 ![Demo GIF](/demo.gif)
 
