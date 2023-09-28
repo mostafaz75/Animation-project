@@ -1,3 +1,5 @@
+
+/* Background for the body */
 body{
     background-image: url(assets/duplicitous-ball-in-the-court-7yj4wqmbaxc4yqxn\ \(3\).jpg);
     background-size: 1554px;
@@ -35,6 +37,7 @@ body{
 /*BALL CSS [END]*/
 
 /*HOVER CONTAINER BALL [START]*/
+/* Hover Effect for the Ball within Container */
 .container:hover .ball {
   animation: move 13s ease-in-out 1 2s;
 }
@@ -42,6 +45,7 @@ body{
 
 
 /*ANIMATION MOVE NAME [START]*/
+/* Keyframes for the Ball Animation */
 @keyframes move {
   0% {
  
@@ -128,6 +132,7 @@ body{
 /*ANIMATION MOVE NAME [END]*/
 
 /*JORDAN IMG [START]*/
+/* Jordan Image CSS */
 .jordan img{
   width: 155px;
   height: 333px;
@@ -139,12 +144,14 @@ body{
 /*JORDAN IMG [END]*/
 
 /*JORDAN IMG HOVER [START]*/
+/* Hover Effect for Jordan Image within Container */
 .container:hover .jordan{
   animation: koby 2s ease-in-out 1 forwards;
 }
 /*JORDAN IMG HOVER [END]*/
 
 /*JORDAN ANIMATION KOBY NAME [START]*/
+/* Keyframes for the Jordan Image Animation */
 @keyframes koby{
   0%{
     
@@ -154,3 +161,7 @@ body{
   }
 }
 /*JORDAN ANIMATION KOBY NAME [END]*/
+
+
+
+
